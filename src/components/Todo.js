@@ -23,18 +23,16 @@ function Todo({ todo, todos, setTodos }) {
       .catch((err) => console.error());
   };
 
-  const EditInput = () => {
-    return (
-      <form>
-        <Input type='text' value={editTodo.todo} onChange={(event) => setEditTodo({ ...editTodo, todo: event.target.value })} />
-        <EditBtn onClick={() => updateTodo(todo)}>완료</EditBtn>
-      </form>
-    );
-  };
-
   return (
     <List key={todo.id}>
-      {todo.id !== editTodo.id ? <TodoText>{todo.todo}</TodoText> : <EditInput></EditInput>}
+      {todo.id !== editTodo.id ? (
+        <TodoText>{todo.todo}</TodoText>
+      ) : (
+        <form>
+          <Input type='text' value={editTodo.todo} onChange={(event) => setEditTodo({ ...editTodo, todo: event.target.value })} />
+          <EditBtn onClick={() => updateTodo(todo)}>완료</EditBtn>
+        </form>
+      )}
       <div>
         <EditBtn
           onClick={() => {
