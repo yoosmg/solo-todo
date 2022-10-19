@@ -21,6 +21,7 @@ function App() {
       id: uuid(),
       todo: newTodo,
       date: today.toLocaleDateString(),
+      completed: false,
     };
 
     axios

@@ -1,29 +1,25 @@
 {
   "todos": [
     {
-      "id": "51084f0-7d36-78d-7a-267c77ed8f",
-      "todo": "asdasdsdasdasd",
+      "id": "d7f1124-ac15-e556-7c1-02a636062af",
+      "todo": "물마시기",
       "date": "10/19/2022"
     },
     {
-      "id": "660280b-1584-0e4-6a77-78dcb4b81a2",
-      "todo": "as",
+      "id": "b5a8a1e-c51a-0c8e-ceed-2cbe5140aeef",
+      "todo": "게임하기",
       "date": "10/19/2022"
     },
     {
-      "id": "edb4c3-c521-78c7-646e-47700e83a220",
-      "todo": "asd",
+      "id": "6de6c64-723d-c34-4cba-e0ddaf001c5",
+      "todo": "운동하기",
       "date": "10/19/2022"
     },
     {
-      "id": "374153f-ae57-be86-aadd-751c54278f7e",
-      "todo": "ads",
-      "date": "10/19/2022"
-    },
-    {
-      "id": "bc12d58-e3e-7082-22dd-4814314c50d",
-      "todo": "asd",
-      "date": "10/19/2022"
+      "id": "4a7c5c-d3c0-cc5c-3e0-1aa72687380e",
+      "todo": "dd",
+      "date": "10/19/2022",
+      "completed": false
     }
   ]
 }

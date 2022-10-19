@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/solo-todo/static/css/main.af1548de.css",
+    "main.js": "/solo-todo/static/js/main.f75680cc.js",
+    "static/js/787.b96b1957.chunk.js": "/solo-todo/static/js/787.b96b1957.chunk.js",
+    "index.html": "/solo-todo/index.html",
+    "main.af1548de.css.map": "/solo-todo/static/css/main.af1548de.css.map",
+    "main.f75680cc.js.map": "/solo-todo/static/js/main.f75680cc.js.map",
+    "787.b96b1957.chunk.js.map": "/solo-todo/static/js/787.b96b1957.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af1548de.css",
+    "static/js/main.f75680cc.js"
+  ]
+}

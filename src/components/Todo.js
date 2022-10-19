@@ -11,7 +11,7 @@ function Todo({ todo, todos, setTodos }) {
       .then((res) => {
         setTodos(todos.filter((el) => el.id !== todo.id));
       })
-      .catch((err) => console.error());
+      .catch((err) => console.error(err));
   };
 
   const updateTodo = (todo) => {
@@ -20,7 +20,7 @@ function Todo({ todo, todos, setTodos }) {
       .then((res) => {
         setTodos(todo.id === editTodo.id ? editTodo : todo);
       })
-      .catch((err) => console.error());
+      .catch((err) => console.error(err));
   };
 
   return (
@@ -64,8 +64,6 @@ const List = styled.li`
   width: 55vw;
   padding: 10px 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  &:hover {
-  }
 `;
 
 const TodoText = styled.p`
